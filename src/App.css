@@ -1,0 +1,36 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* .section {
+  background-color: black;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card-holder {
+  margin: 2.4rem auto;
+  background: black;
+  padding: 2em;
+}
+
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  letter-spacing: -2px;
+  box-shadow: 0 4px 8px 0 rgba(139, 139, 139, 0.2);
+  text-align: center;
+  transition: transform 1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  color: white;
+  background: black;
+} */

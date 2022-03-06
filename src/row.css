@@ -1,0 +1,38 @@
+.row__header {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.row__header ::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  display: inline-block;
+}
+
+.row__header {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.poster {
+  flex: 0 0 auto;
+}
+
+.row__poster {
+  box-shadow: 1px 1px 10px #999;
+  cursor: pointer;
+  display: inline-block;
+  display: inline;
+  vertical-align: top;
+  width: 40%;
+  height: 500px;
+  object-fit: cover;
+  transition: transform 450ms;
+}
+
+.row__poster:hover {
+  transform: scale(1.03);
+  opacity: 1;
+}
